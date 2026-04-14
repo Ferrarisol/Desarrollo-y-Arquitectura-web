@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karol G hizo historia en Coachella 2026</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+<header>
+    <h1>TN Noticias</h1>
+</header>
+
+<main>
+
+    <article>
+
+        <header>
+            <h2>Karol G hizo historia en Coachella 2026 al ritmo de sus hits y con importantes invitados</h2>
+            <p><strong>Por TN</strong></p>
+            <time datetime="2026-04-13">13 de abril de 2026</time>
+        </header>
+
+        <figure>
+            <img src="img/karolg.jpg" alt="Karol G en Coachella 2026">
+            <figcaption>Karol G brilló en el escenario principal de Coachella</figcaption>
+        </figure>
+
+        <section>
+            <p>
+                La cantante colombiana Karol G se convirtió en una de las grandes protagonistas de Coachella 2026,
+                haciendo historia como una de las artistas latinas más destacadas del festival.
+            </p>
+
+            <p>
+                Durante su presentación, interpretó algunos de sus mayores éxitos como “Tusa”, “Provenza”
+                y “Bichota”, desatando la euforia del público.
+            </p>
+        </section>
+
+        <section>
+            <h3>Invitados sorpresa</h3>
+
+            <p>
+                El show también contó con importantes invitados internacionales como Anitta, J Balvin,
+                Becky G y el reconocido DJ Tiësto, quienes se sumaron al escenario en distintos momentos.
+            </p>
+
+            <p>
+                La combinación de ritmos urbanos, pop y electrónica convirtió la presentación en uno
+                de los momentos más comentados del festival.
+            </p>
+        </section>
+
+        <section>
+            <h3>Un hito para la música latina</h3>
+
+            <p>
+                Con este show, Karol G reafirma el crecimiento global de la música latina y su impacto
+                en los escenarios más importantes del mundo.
+            </p>
+        </section>
+
+    </article>
+
+</main>
+
+<footer>
+    <p>© 2026 TN - Todos los derechos reservados</p>
+</footer>
+
+</body>
+</html>
