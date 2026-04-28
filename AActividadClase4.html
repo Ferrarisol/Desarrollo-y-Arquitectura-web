@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Actividad clase4</title>
+
+<style>
+
+/* GENERAL */
+body{
+    font-family: Arial, sans-serif;
+    background:#e6e6e6;
+}
+
+#contenedor{
+    width: 900px;
+    margin:auto;
+    border:2px solid #555;
+    background:white;
+}
+
+/* CABECERA */
+#cabecera{
+    background:#f4f4f4;
+    border:1px solid #999;
+    text-align:center;
+    font-size:30px;
+    font-weight:bold;
+    padding:20px;
+}
+
+/* ZONA CENTRAL */
+#principal{
+    overflow:hidden;
+    padding:10px;
+}
+
+/* MENÚ */
+#menu{
+    width:180px;
+    float:left;
+    background:#f8f8f8;
+    border:1px solid #999;
+    padding:20px;
+    box-sizing:border-box;
+}
+
+#menu h2{
+    margin-top:0;
+}
+
+/* CONTENIDO */
+#contenido{
+    width:670px;
+    float:right;
+    border:1px solid #999;
+    padding:20px;
+    box-sizing:border-box;
+    min-height:450px;
+}
+
+/* PIE */
+#pie{
+    clear:both;
+    background:#f4f4f4;
+    border-top:1px solid #999;
+    text-align:center;
+    padding:15px;
+    font-weight:bold;
+}
+
+/* TEXTO DEL ARTÍCULO */
+h1{
+    text-align:center;
+    background:#ddd;
+    border:1px solid #999;
+    padding:10px;
+}
+
+.resaltado{
+    background:rgb(14, 243, 14);
+    font-weight:bold;
+}
+
+.subrayado{
+    text-decoration:underline;
+}
+
+.tachado{
+    text-decoration:line-through;
+}
+
+.cursiva{
+    font-style:italic;
+}
+
+.negrita{
+    font-weight:bold;
+}
+
+</style>
+</head>
+
+<body>
+
+<div id="contenedor">
+
+    <div id="cabecera">
+        Cabecera
+    </div>
+
+    <div id="principal">
+
+        <div id="menu">
+            <h2>Menú</h2>
+            <ul>
+                <li>Inicio</li>
+                <li>Noticias</li>
+                <li>Servicios</li>
+                <li>Contacto</li>
+            </ul>
+        </div>
+
+        <div id="contenido">
+
+            <h1>Las claves del 'game-based learning'</h1>
+
+            <p>
+                Los beneficios de los videojuegos han llegado también a la enseñanza con el 
+                <span class="resaltado">game-based learning</span> o 
+                <span class="resaltado">aprendizaje basado en los juegos electrónicos</span>.
+                Este método educativo utiliza lo bueno de los videojuegos para transmitir conocimientos a los estudiantes.
+            </p>
+
+            <ul>
+                <li><span class="negrita">Dinamiza la educación:</span> transforma el aprendizaje en un juego divertido.</li>
+                <li><span class="negrita">Incrementa la motivación:</span> convierte a los estudiantes en protagonistas.</li>
+                <li><span class="negrita">Facilita la práctica:</span> permite aplicar conocimientos en situaciones reales.</li>
+            </ul>
+
+            <p>
+                Mucho padres recelaban de los videojuegos, pero estudios han demostrado beneficios como la atención,
+                creatividad, memoria e idiomas.
+            </p>
+
+        </div>
+
+    </div>
+
+    <div id="pie">
+        Pie de página <br>
+
+    </div>
+
+</div>
+
+</body>
+</html>
